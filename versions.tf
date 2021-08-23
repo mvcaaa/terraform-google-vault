@@ -3,5 +3,6 @@ terraform {
 
   required_providers {
     google = "~> 3.4"
+    tls    = "~> 2.1.1"
   }
 }
