@@ -19,9 +19,6 @@
 # Vault.
 #
 
-provider "tls" {
-}
-
 locals {
   manage_tls_count          = var.manage_tls ? 1 : 0
   tls_save_ca_to_disk_count = var.tls_save_ca_to_disk ? 1 : 0
